@@ -1,0 +1,19 @@
+{
+  "servers": [
+    {
+      "name": "Example App 1",
+      "url": "redis://localhost:6379",
+      "schedule": "*/15 * * * *"
+    },
+    {
+      "name": "Example App 2",
+      "url": "redis://127.0.0.1:6379",
+      "schedule": "0 */2 * * *"
+    },
+    {
+      "name": "Development Server",
+      "url": "redis://redis-dev:6379",
+      "schedule": "*/30 * * * *"
+    }
+  ]
+}
