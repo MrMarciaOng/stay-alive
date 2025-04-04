@@ -125,8 +125,26 @@ Expected behavior:
 ## Contributors
 
 ### Developers
-- [@MrMarciaOng](https://github.com/MrMarciaOng) - Project creator  
-- [@sayyidkhan](https://github.com/sayyidkhan) - Contributor
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/MrMarciaOng">
+        <img src="https://avatars.githubusercontent.com/u/55839535" width="100px;" alt="MrMarciaOng"/>
+        <br />
+        <sub><b>MrMarciaOng</b></sub>
+      </a>
+      <br />Project Creator
+    </td>
+    <td align="center">
+      <a href="https://github.com/sayyidkhan">
+        <img src="https://avatars.githubusercontent.com/u/22993048" width="100px;" alt="sayyidkhan"/>
+        <br />
+        <sub><b>sayyidkhan</b></sub>
+      </a>
+      <br />Contributor
+    </td>
+  </tr>
+</table>
 
 ### How to Contribute
 1. 🍴 Fork the repository  
