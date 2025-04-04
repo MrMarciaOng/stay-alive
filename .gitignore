@@ -1,1 +1,24 @@
+# Binaries
+bin/
+dist/
+stay-alive
+
+# Logs
+stay-alive.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment files
+.env
+*.local
+
+# Test output
+coverage.txt
+profile.out
+
+# Dependency directories
+vendor/
+
 prod-config.json
