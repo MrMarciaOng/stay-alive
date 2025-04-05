@@ -2,6 +2,10 @@
 
 A Go application that keeps serverless instances alive by periodically pinging Redis servers.
 
+## Inspiration
+> "Been learning Go on the side, so I decided to build something to fix a recurring pain point as a dev. My serverless Redis instances from Upstash kept shutting down due to inactivity. (I don't blame them - I have 20+ instances!)"  
+> — @MrMarciaOng
+
 ![Stay-Alive Banner](https://img.shields.io/badge/STAY--ALIVE-Go_Redis_Pinger-1E1E1E?style=for-the-badge&logo=go&logoColor=00ADD8&labelColor=DC382D)
 
 ![Go Version](https://img.shields.io/badge/go-1.18+-00ADD8?logo=go)
