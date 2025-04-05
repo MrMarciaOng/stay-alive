@@ -13,8 +13,9 @@ A Go application that keeps serverless instances alive by periodically pinging R
 - 💻 [Installation](#installation--running)  
 - 🧪 [Running Locally](#running-locally-for-development)
 - ✅ [Verification](#verification)
-- 🤝 [Contributing](#contributing)
+- 📦 [Release Process](#release-process-3-steps)
 - 👥 [Contributors](#contributors)
+
 
 ## Requirements
 
@@ -122,6 +123,35 @@ Expected behavior:
 - Subsequent pings every Nth minute (based on config.json schedule)
 - Matching timestamps between application and Redis logs
 
+## Release Process (3 Steps)
+
+1. **Verify**  
+```bash
+# Check existing tags (sorted by version):
+git tag --list -n | sort -V
+```
+- Visit `https://github.com/sayyidkhan/stay-alive/releases`  
+- Download the binary under "Assets" 
+
+2. **Tag Your Release**  
+```bash
+git tag -a v0.1.0 -m "Test release"
+git push origin v0.1.0
+```
+
+3. **Wait 1 Minute**  
+- GitHub will automatically:  
+  ✅ Build the binary  
+  ✅ Create a release  
+  ✅ Upload `stay-alive`   
+
+⚠️ **Troubleshooting**:  
+- If the release doesn't appear:  
+```bash
+# Check workflow runs:
+gh run list -w "Build and Release"
+```
+
 ## Contributors
 
 ### Developers
@@ -129,7 +159,7 @@ Expected behavior:
   <tr>
     <td align="center">
       <a href="https://github.com/MrMarciaOng">
-        <img src="https://avatars.githubusercontent.com/u/55839535" width="100px;" alt="MrMarciaOng"/>
+        <img src="https://avatars.githubusercontent.com/u/24979131" width="100px;" alt="MrMarciaOng"/>
         <br />
         <sub><b>MrMarciaOng</b></sub>
       </a>
